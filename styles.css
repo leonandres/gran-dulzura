@@ -1,5 +1,4 @@
 body {
-    padding-top: 4.5rem;
     background-color: #fff8fb;
     color: #343a40;
 }
@@ -100,6 +99,10 @@ footer {
 
 .btn-primary:hover {
     background-color: #ff4f9a;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* Secciones */
