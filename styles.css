@@ -1,12 +1,16 @@
 body {
     background-color: #fff8fb;
     color: #343a40;
+    padding-top: 76px;
 }
 
 .navbar {
     border-bottom: 4px solid #96d10b;
     background-color: #343a40;
     padding: 1rem 2rem;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    border-bottom: 3px solid #ff69b4;/*No se si dejar la línea 8 o este color*/
+    z-index: 1000;
 }
 
 .navbar-brand {
