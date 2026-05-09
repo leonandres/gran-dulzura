@@ -57,6 +57,7 @@ footer p {
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease;
+    width: 100%;
 }
 
 .card img {
@@ -115,6 +116,14 @@ footer p {
 
 .card-text {
     flex-grow: 1;
+}
+
+.productos-row > div {
+    display: flex;
+}
+
+.productos-row .card {
+    width: 100%;
 }
 
 /* Botones */
