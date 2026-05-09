@@ -37,6 +37,16 @@ footer {
     background-color: #343a40;
 }
 
+footer h4 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+    color: rgba(255,255,255,0.85);
+}
+
 .card {
     margin-bottom: 2rem;
     border: none;
