@@ -162,3 +162,28 @@ footer {
     padding: 3rem 0;
     margin-top: 4rem;
 }
+
+/*Responsive*/
+@media (max-width: 768px) {
+
+    .jumbotron {
+        padding: 4rem 1rem;
+    }
+
+    .jumbotron h1 {
+        font-size: 2.2rem;
+    }
+
+    .jumbotron .lead {
+        font-size: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+
+    .card {
+        margin-bottom: 1.5rem;
+    }
+
+}
