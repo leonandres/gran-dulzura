@@ -90,6 +90,12 @@ footer p {
     font-size: 1.3rem;
 }
 
+.jumbotron .btn {
+    padding: 0.8rem 1.6rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
 .card-body {
     display: flex;
     flex-direction: column;
