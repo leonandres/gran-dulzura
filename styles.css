@@ -66,6 +66,14 @@ footer p {
     transform: translateY(-5px);
 }
 
+#tortas h2 {
+    font-weight: bold;
+}
+
+#tortas p {
+    color: #666;
+}
+
 /* Hero */
 
 .jumbotron {
