@@ -1,9 +1,18 @@
 body {
     padding-top: 4.5rem;
+    background-color: #fff8fb;
+    color: #343a40;
 }
 
 .navbar {
     border-bottom: 4px solid #96d10b;
+    background-color: #343a40;
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
 }
 
 .navbar-expand-lg{
@@ -17,6 +26,12 @@ body {
 .nav-link{
     color: #fff;
     margin-right: 1rem;
+    margin-right: 1rem;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #ffb6d9;
 }
 
 footer {
@@ -34,9 +49,85 @@ footer {
 .card img {
     width: 100%;
     height: 250px;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
 }
 
 .card:hover {
     transform: translateY(-5px);
+}
+
+/* Hero */
+
+.jumbotron {
+    background: linear-gradient(
+        rgba(255,255,255,0.75),
+        rgba(255,255,255,0.75)
+    ),
+    url("torta1.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    padding: 6rem 2rem;
+    margin-bottom: 4rem;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+}
+
+.jumbotron .lead {
+    font-size: 1.3rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+/* Botones */
+
+.btn-primary {
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #ff4f9a;
+}
+
+/* Secciones */
+
+section {
+    padding: 3rem 0;
+}
+
+section h2 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+section p {
+    line-height: 1.7;
+}
+
+/* Sobre nosotros */
+
+section img {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Footer */
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 3rem 0;
+    margin-top: 4rem;
 }
