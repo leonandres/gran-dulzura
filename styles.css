@@ -3,7 +3,7 @@ body {
     color: #343a40;
     padding-top: 76px;
 }
-
+/*navbar*/
 .navbar {
     border-bottom: 4px solid #96d10b;
     background-color: #343a40;
@@ -29,7 +29,6 @@ body {
 .nav-link{
     color: #fff;
     margin-right: 1rem;
-    margin-right: 1rem;
     transition: color 0.2s ease;
 }
 
@@ -37,18 +36,14 @@ body {
     color: #ffb6d9;
 }
 
-footer {
-    background-color: #343a40;
+.navbar-toggler {
+    border: none;
+    padding: 0.4rem 0.7rem;
 }
 
-footer h4 {
-    margin-bottom: 1rem;
-    font-weight: bold;
-}
-
-footer p {
-    margin-bottom: 0.5rem;
-    color: rgba(255,255,255,0.85);
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .card {
@@ -81,7 +76,7 @@ footer p {
 
 /* Hero */
 
-.jumbotron {
+.hero {
     background: linear-gradient(
         rgba(255,255,255,0.75),
         rgba(255,255,255,0.75)
@@ -95,15 +90,15 @@ footer p {
     margin-bottom: 4rem;
 }
 
-.jumbotron h1 {
+.hero h1 {
     font-weight: bold;
 }
 
-.jumbotron .lead {
+.hero .lead {
     font-size: 1.3rem;
 }
 
-.jumbotron .btn {
+.hero .btn {
     padding: 0.8rem 1.6rem;
     font-size: 1.1rem;
     font-weight: bold;
@@ -144,8 +139,12 @@ html {
 
 /* Secciones */
 
-section {
+/*section {
     padding: 3rem 0;
+}*/
+
+.seccion {
+    padding:5rem 0;
 }
 
 section h2 {
@@ -176,18 +175,28 @@ footer {
     margin-top: 4rem;
 }
 
+footer h4 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+    color: rgba(255,255,255,0.85);
+}
+
 /*Responsive*/
 @media (max-width: 768px) {
 
-    .jumbotron {
+    .hero {
         padding: 4rem 1rem;
     }
 
-    .jumbotron h1 {
+    .hero h1 {
         font-size: 2.2rem;
     }
 
-    .jumbotron .lead {
+    .hero .lead {
         font-size: 1rem;
     }
 
@@ -197,6 +206,22 @@ footer {
 
     .card {
         margin-bottom: 1.5rem;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .navbar-collapse {
+        margin-top: 1rem;
+        background-color: #343a40;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .nav-link {
+        margin-right: 0;
+        padding: 0.7rem 0;
     }
 
 }
