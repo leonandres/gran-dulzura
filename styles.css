@@ -53,6 +53,7 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease;
     width: 100%;
+    position: relative;
 }
 
 .card img {
@@ -72,6 +73,13 @@ body {
 
 #tortas p {
     color: #666;
+}
+
+.precio {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ff4f9a;
+    margin-bottom: 1rem;
 }
 
 /* Hero */
@@ -111,6 +119,23 @@ body {
 
 .card-text {
     flex-grow: 1;
+}
+
+.badge-producto {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+
+    background-color: #ff69b4;
+    color: white;
+
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+
+    font-size: 0.8rem;
+    font-weight: bold;
+
+    z-index: 2;
 }
 
 .productos-row > div {
