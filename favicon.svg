@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+    <!-- Base del cupcake -->
+    <path d="M20 28 L44 28 L40 48 L24 48 Z" stroke="#ff69b4" stroke-width="3" stroke-linejoin="round"></path>
+
+    <!-- Crema -->
+    <path d="M20 28
+           C18 18, 28 14, 32 20
+           C36 12, 48 16, 44 28" stroke="#ff69b4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+    <!-- Cereza -->
+    <circle cx="32" cy="14" r="3" stroke="#ff69b4" stroke-width="3"></circle>
+</svg>
