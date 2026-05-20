@@ -7,10 +7,15 @@ body {
 /*navbar*/
 .navbar {
     border-bottom: 4px solid #96d10b;
-    background-color: #343a40;
+    /*background-color: #343a40;*/
+    background-color: transparent;
     padding: 1rem 2rem;
     box-shadow: 0 4px 16px rgba(0,0,0,0.25);
     border-bottom: 3px solid #ff69b4;/*No se si dejar la línea 8 o este color*/
+    transition:
+        background-color 0.3s ease,
+        box-shadow 0.3s ease,
+        padding 0.3s ease;
     z-index: 1000;
 }
 
@@ -45,6 +50,16 @@ body {
 .navbar-toggler:focus {
     outline: none;
     box-shadow: none;
+}
+
+.navbar.scrolled {
+    background-color: rgba(52, 58, 64, 0.95);
+
+    backdrop-filter: blur(8px);
+
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+
+    border-bottom: 3px solid #ff69b4;
 }
 
 .card {
