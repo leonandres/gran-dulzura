@@ -95,7 +95,7 @@ El sitio está optimizado para:
 
 ## 📸 Redes sociales
 
-* **Instagram:** [@pasteleria_gabylu](https://instagram.com)
+* **Instagram:** [@pasteleria_gabylu](https://www.instagram.com/pasteleria_gabylu/)
 
 ---
 
