@@ -1,8 +1,16 @@
-# Gran Dulzura 🍰
+# 🧁 Gran Dulzura 🍰
+  
+  *Landing page completamente responsiva para una pastelería artesanal.*
 
-Landing page responsive para una pastelería artesanal desarrollada con HTML, CSS y Bootstrap 5 y JavaScript.
+<img width="2465" height="1393" alt="image" src="https://github.com/user-attachments/assets/3a638eef-3547-47da-98ea-d17209df0258" /><br>
+
+Diseñada para una pastelería artesanal con HTML, CSS, Bootstrap 5 y JavaScript.
 
 El web ofrece una presentación moderna y visual de productos de repostería, incluyendo catálogo, contacto y pedidos por WhatsApp.
+
+---
+# | Sitio
+https://leonandres.github.io/gran-dulzura
 
 ---
 
@@ -22,15 +30,17 @@ El web ofrece una presentación moderna y visual de productos de repostería, in
 
 ## | Tecnologías utilizadas
 
-- HTML5
-- CSS3
-- Bootstrap 5.3
-- Bootstrap Icons
-- JavaScript
+<div align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Bootstrap_5.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+</div>
+
 
 ---
 
-## 📁 Estructura del proyecto
+## | Estructura del proyecto
 
 ```plaintext
 gran-dulzura/
@@ -47,18 +57,18 @@ gran-dulzura/
 └── README.md
 ```
 
-## 🚀 Cómo ejecutar el proyecto
+## | Cómo ejecutar el proyecto
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tuusuario/gran-dulzura.git
+   git clone https://github.com/leonandres/gran-dulzura.git
    ```
 2. **Abrir la carpeta del proyecto.**
 3. **Ejecutar `index.html` en el navegador.**
 
 ---
 
-## 📱 Responsive Design
+## | Responsive Design
 
 El sitio está optimizado para:
 * 🖥️ **Desktop**
@@ -69,7 +79,7 @@ El sitio está optimizado para:
 
 ---
 
-## 📌 Funcionalidades actuales
+## | Funcionalidades actuales
 
 * ✅ Navegación entre secciones
 * ✅ Visualización de productos
@@ -80,7 +90,7 @@ El sitio está optimizado para:
 
 ---
 
-## 🔧 Mejoras pendientes
+## | Mejoras pendientes
 
 * [ ] Mejorar composición visual del footer
 * [ ] Optimizar hero section
@@ -93,12 +103,12 @@ El sitio está optimizado para:
 
 ---
 
-## 📸 Redes sociales
+## | Redes sociales
 
 * **Instagram:** [@pasteleria_gabylu](https://www.instagram.com/pasteleria_gabylu/)
 
 ---
 
-## 📄 Licencia
+## | Licencia
 
 Proyecto realizado con fines educativos y comerciales.
