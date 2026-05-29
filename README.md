@@ -72,7 +72,7 @@ gran-dulzura/
 
 El sitio está optimizado para:
 * 🖥️ **Desktop**
-*  Wait... 📱 **Tablets**
+* 📱 **Tablets**
 * 📲 **Smartphones**
 
 > 💡 Incluye menú hamburguesa y ajustes visuales para pantallas pequeñas.
