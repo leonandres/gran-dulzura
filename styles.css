@@ -213,6 +213,12 @@ section img {
     background-color: white;
 }
 
+/* Testimonios */
+.card h5 {
+    color: #ff69b4;
+    font-size: 1.4rem;
+}
+
 /* Footer */
 
 footer {
