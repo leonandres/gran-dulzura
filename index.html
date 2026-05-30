@@ -92,12 +92,12 @@
                         <h5 class = "card-title">Torta mixta</h5>
                         <p class = "card-text">Combinación de vainilla y chocolate, ideal para cumpleaños y celebraciones.</p>
                         <p class = "precio">$12.500</p>
-                        <a 
-                            href = "https://wa.me/541165378382?text=Hola,%20quiero%20consultar%20por%20la%20Torta%20de%20chocolate"
+                        <button
                             class = "btn btn-primary"
-                            target = "_blank">
-                            Pedir por WhatsApp
-                        </a>
+                            data-bs-toggle = "modal"
+                            data-bs-target = "#modalMixta">
+                            Ver detalle
+                        </button>
                     </div>
 
                 </div>
@@ -112,12 +112,13 @@
                     <h5 class = "card-title">Alfajores de maicena</h5>
                     <p class = "card-text">Alfajores artesanales rellenos con dulce de leche y coco rallado.</p>
                     <p class="precio">$6.000</p>
-                    <a 
-                        href = "https://wa.me/541165378382?text=Hola,%20quiero%20consultar%20por%20la%20Torta%20de%20chocolate"
+                    <button
                         class = "btn btn-primary"
-                        target = "_blank">
-                        Pedir por WhatsApp
-                    </a>
+                        data-bs-toggle = "modal"
+                        data-bs-target = "#modalAlfajores">
+                        Ver detalle
+                    </button>
+                </div>
                 </div>
                 </div>
                             
@@ -256,6 +257,86 @@
                 <div class = "modal-footer">
                     <a
                         href = "https://wa.me/541165378382?text=Hola,%20quiero%20consultar%20por%20la%20Torta%20de%20chocolate"
+                        target = "_blank"
+                        class = "btn btn-primary">
+                        Pedir por WhatsApp
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal torta mixta -->
+    <div class = "modal fade" id = "modalMixta" tabindex = "-1" aria-hidden = "true">
+        <div class = "modal-dialog modal-dialog-centered">
+            <div class = "modal-content">
+
+                <div class = "modal-header">
+                    <h5 class = "modal-title">Torta mixta</h5>
+                    <button type = "button" class = "btn-close" data-bs-dismiss = "modal"></button>
+                </div>
+
+                <div class = "modal-body">
+                    <img src = "torta2.jpg" alt = "Torta mixta" class = "img-fluid rounded mb-3">
+
+                    <p>
+                        Combinación de vainilla y chocolate,
+                        ideal para cumpleaños y celebraciones.
+                    </p>
+
+                    <ul>
+                        <li>Rinde 15 porciones</li>
+                        <li>Bizcochuelo de vainilla y chocolate</li>
+                        <li>Decoración personalizada</li>
+                    </ul>
+
+                    <p class = "precio">$12.500</p>
+                </div>
+
+                <div class = "modal-footer">
+                    <a
+                        href = "https://wa.me/541165378382?text=Hola,%20quiero%20consultar%20por%20la%20Torta%20mixta"
+                        target = "_blank"
+                        class = "btn btn-primary">
+                        Pedir por WhatsApp
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal alfajores de maicena -->
+     <div class = "modal fade" id = "modalAlfajores" tabindex = "-1" aria-hidden = "true">
+        <div class = "modal-dialog modal-dialog-centered">
+            <div class = "modal-content">
+
+                <div class = "modal-header">
+                    <h5 class = "modal-title">Alfajores de maicena</h5>
+                    <button type = "button" class = "btn-close" data-bs-dismiss = "modal"></button>
+                </div>
+
+                <div class = "modal-body">
+                    <img src = "torta3.jpg" alt = "Alfajores de maicena" class = "img-fluid rounded mb-3">
+
+                    <p>
+                        Alfajores artesanales rellenos con dulce de leche
+                        y coco rallado.
+                    </p>
+
+                    <ul>
+                        <li>Docena de alfajores</li>
+                        <li>Dulce de leche artesanal</li>
+                        <li>Ideales para eventos y regalos</li>
+                    </ul>
+
+                    <p class = "precio">$6.000</p>
+                </div>
+
+                <div class = "modal-footer">
+                    <a
+                        href = "https://wa.me/541165378382?text=Hola,%20quiero%20consultar%20por%20los%20Alfajores%20de%20maicena"
                         target = "_blank"
                         class = "btn btn-primary">
                         Pedir por WhatsApp
